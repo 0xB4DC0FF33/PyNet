@@ -43,7 +43,7 @@ while serverUp:
             print("Message = {}".format(message))
             print("Debug = {}".format(message))
             client.send(b"Successfully received\n")
-            if message[] == "END":
+            if message == "END":
                 serverUp = False
 
 ####### SERVER SHUTDOWN #######
